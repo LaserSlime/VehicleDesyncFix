@@ -1,0 +1,16 @@
+#############################################
+#                                           
+#      VehicleDesyncFix Configuration       
+#                                           
+#############################################
+
+#Prevents the player from entering a boat while he is already in that boat.
+#This prevents the player from dismounting on the client side when clicking fast on a boat allowing them to walk around freely.
+prevent-doubleclick-boat-desync: true
+
+#Listens for the player sending movement packets while inside a vehicle and attempts to remount them if necessary. 
+#Can prevent future exploits and random glitches. Currently only compatible with 1.16.5.
+packet-check: false
+
+#If the plugin should log in console when it prevents a desync.
+log: true

@@ -1,0 +1,6 @@
+name: VehicleDesyncFix
+author: LaserSlimeHD
+description: Prevents various desynchronisation glitches with vehicles.
+main: de.laserslime.boatdesyncfix.main.Main
+version: 1.0
+api-version: 1.16
